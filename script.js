@@ -8,10 +8,6 @@ for (let i = 0; i < allFilters.length; i++) {
     allFilters[i].addEventListener("click", filterHandler);
 }
 
-function filterHandler(e) {
-    
-}
-
 let addButton = document.querySelector(".add");
 
 addButton.addEventListener("click", showModal);
